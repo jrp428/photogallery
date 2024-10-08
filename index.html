@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>TK Photography</h1>
+    <nav>
+        <ul>
+            <li><a href="#intro">About</a></li>
+            <li><a href="#gallerytxt">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li id="top"><a href="#">top</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2 id="intro">About</h2>
+        <p>Hello!</p> 
+        <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p>
+
+        <h2 id="gallerytxt">Gallery</h2>
+        <p>Here are some highlights of my work. The locations and year are in the caption.</p> 
+    </section>
+
+    <section id="gallery">
+        <figure>
+            <img src="images/Chile.png" alt="a beach in chile"><figcaption class="bottext">Chile, 2001</figcaption>
+        </figure>
+        <figure>
+            <img src="images/Guatemala.png" alt="a lake in guatemala"><figcaption>Guatemala, 1997</figcaption>
+        </figure>
+        <figure>
+            <img src="images/Hawaii.png" alt="beachside mountains in hawaii"><figcaption class="bottext">Hawaii, 2010</figcaption>
+        </figure>
+        <figure>
+            <img src="images/Iran.png" alt="a field in iran"><figcaption class="blacktext">Iran, 1999</figcaption>
+        </figure>
+        <figure>
+            <img src="images/Ireland.png" alt="some hills in ireland"><figcaption class="blacktext">Ireland, 2012</figcaption>
+        </figure>
+        <figure>
+            <img src="images/Italy.png" alt="a lake in italy"><figcaption class="bottext blacktext" id="italy">Italy, 2015</figcaption>
+        </figure>
+        <figure>
+            <img src="images/Moab-Desert.png" alt="mountainview of the sunset in the moab desert"><figcaption class="bottext">Moab Desert, 2020</figcaption>
+        </figure>
+        <figure>
+            <img src="images/Rocky-Mountains.png" alt="a view of the rocky mountains"><figcaption class="blacktext">Rocky Mountains, 2009</figcaption>
+        </figure>
+        <figure>
+            <img src="images/Switzerland.png" alt="a view from the mountains of switzerland"><figcaption class="blacktext">Switzerland, 2014</figcaption>
+        </figure>
+        <figure>
+            <img src="images/UK.png" alt="some hills in the UK"><figcaption class="blacktext">UK, 2005</figcaption>
+        </figure> 
+        <figure>
+            <img src="images/USA.png" alt="a field in the USA"><figcaption class="blacktext">USA, 2021</figcaption>
+        </figure>
+        <figure>
+            <img src="images/Wyoming.png" alt="a forest in wyoming"><figcaption>Wyoming, 2021</figcaption>
+        </figure>
+    </section>
+</main>
+
+<aside>
+    <h2 id="contact">Contact</h2>
+    <!--not sure how much functionality is required for this or if matching visuals is enough for this assignment-->
+    <p>Please fill out this form and I’ll connect with you soon.</p>
+        <form>
+            <label>Name</label>
+            <input placeholder="Your full name">
+
+            <label>Email</label>
+            <input placeholder="Enter your email address">
+
+            <label>Message</label>
+            <input placeholder="What can I help you with?">
+
+            <input type="submit" value="Submit">
+        </form>
+</aside>
+
+<footer>
+    Copyright 2021 TK Photography
+</footer>
+
+</body>
+
+</html>
